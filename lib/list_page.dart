@@ -69,7 +69,7 @@ class _MyListViewState extends State<MyListView> {
                                     }
                                   );
                                 },
-                                child: Text("Update Task")
+                                child: const Text("Update Task")
                               )
                               ],
                               );  
@@ -126,7 +126,7 @@ class _MyListViewState extends State<MyListView> {
                             Navigator.pop(context);
                           });
                         },
-                        child: Text("Add Task")
+                        child: const Text("Add Task")
                       )
                     ],
                   );

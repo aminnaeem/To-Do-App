@@ -30,16 +30,11 @@ class NewScreen extends StatelessWidget {
               ),
             ),
           ),
-          SizedBox(
+          const SizedBox(
            height: 20, 
           ),
           Container(
             decoration: BoxDecoration(
-              border: Border(
-                top: BorderSide(
-                  
-                )
-              ),
               borderRadius: BorderRadius.circular(20),
               color: AppColors.deadlineColor,
             ),
@@ -48,16 +43,16 @@ class NewScreen extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text('  Description:',
+                const Text('  Description:',
                 style: TextStyle(
                   fontSize: 18,
                 ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 20,
                 ),
                 Text('  ${toDoList[index]['SubTitle']}',
-                style: TextStyle(
+                style: const TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.w500
                 ),
