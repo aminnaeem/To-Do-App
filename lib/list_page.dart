@@ -33,7 +33,7 @@ class _MyListViewState extends State<MyListView> {
                   title: GestureDetector(
                     onTap: () {
                       Navigator.push(context,
-                      MaterialPageRoute(builder: ((context) => NewScreen())
+                      MaterialPageRoute(builder: ((context) => NewScreen(toDoList: toDoList, index: index,))
                       ));
                     },
                     child: MyTaskView(toDoList: toDoList, index: index)
